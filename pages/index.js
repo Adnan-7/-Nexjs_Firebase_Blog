@@ -46,7 +46,7 @@ if(newBlogs.length < 3){
             <p>{blog.body}</p>
           </div>
           <div className="card-action">
-           <Link href={`/blog/${blog.id}`}><a>Read More</a></Link> 
+           <Link href={`/blogs/${blog.id}`}><a>Read More</a></Link> 
           </div>
         </div>
         )
