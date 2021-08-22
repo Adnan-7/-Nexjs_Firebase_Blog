@@ -2,7 +2,7 @@ import React,{useEffect , useState} from 'react'
 import {v4 as uuidv4} from 'uuid';
 import {storage, db, serverTimeStam} from '../firebase'
 
-const createblog = ({user}) => {
+const CreateBlog = ({user}) => {
 
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
@@ -83,4 +83,4 @@ uploadTask.on('state_changed',
     )
 }
 
-export default createblog
+export default CreateBlog
